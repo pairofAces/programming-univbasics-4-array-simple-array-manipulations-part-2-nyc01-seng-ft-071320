@@ -1,3 +1,5 @@
-def using_concat(@my_favorite_things, @all_my_favs)
-  
+def using_concat(array1, array2)
+  @all_my_favs.concat(@my_favorite_things, @all_my_favs)
+end
+
   
